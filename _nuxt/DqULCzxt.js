@@ -1,0 +1,1 @@
+const n=defineEventHandler(e=>{const o={"Access-Control-Allow-Origin":"*",crossOriginResourcePolicy:"cross-origin",crossOriginOpenerPolicy:"unsafe-none",crossOriginEmbedderPolicy:"unsafe-none",contentSecurityPolicy:"default-src *","X-XSS-Protection":0};setHeaders(e,o)});export{n as default};
