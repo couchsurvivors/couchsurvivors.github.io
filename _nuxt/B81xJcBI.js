@@ -1,0 +1,1 @@
+import{_ as o,r as t,o as n,g as s}from"./B6TUk3ve.js";const _={};function a(c,r){const e=t("v-empty-state");return n(),s(e,{headline:"Whoops, 404",title:"Page not found",text:"The page you were looking for does not exist",icon:"custom:nustar"})}const l=o(_,[["render",a]]);export{l as default};
