@@ -1,1 +1,0 @@
-import{g as c}from"./NCVg4mz9.js";import{d as i,r as m,o as u,v as g,F as l,Q as p,bd as f}from"./Bbj95wRu.js";const h=i({__name:"supabase-image",props:{imagePath:String},setup(r){const a=m(""),t=r;async function n(e){return await c("images",e)}async function s(){a.value=await n(t.imagePath)}return u(()=>{s()}),(e,o)=>(g(),l(f,{src:p(a)},null,8,["src"]))}});export{h as _};
