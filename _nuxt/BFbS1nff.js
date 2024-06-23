@@ -1,0 +1,1 @@
+function r(e,t=!1){return t?`${(e/1e3).toFixed(2)}kg`:`${Math.round(e)}g`}function n(e){const t={};for(const o of e){const a=o.category.name;t[a]||(t[a]={name:a,weight:0,color:o.category.color,icon:o.category.icon}),t[a].weight+=o.weight*o.amount}for(const o in t)t[o].weight=parseFloat(t[o].weight.toFixed(2));return t}export{r as f,n as g};
